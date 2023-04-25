@@ -1,0 +1,46 @@
+body {
+background-image: url("https://media.istockphoto.com/id/1223364491/vector/cartoon-beach-landscape-summer-background.jpg?s=170667a&w=0&k=20&c=aLvYP_6qRfm4yvSJpEbQT4Zbi7JFY8P7CM1hCoN_LRg=");
+background-size:cover;
+background-position: center;
+background-repeat:no-repeat;
+}
+
+#nav {
+background-color:violet
+}
+
+#feature {
+background-color: #8CC63E;
+background-image: url("https://images.template.net/99504/free-smiley-face-clipart-r05sr.jpg");
+background-size:contain;
+background-position: right;
+background-repeat:no-repeat;
+}
+
+#footer {
+background-color:purple
+}
+
+.column1 {
+background-color:pink
+}
+
+.column2 {
+background-color:darkred
+}
+
+.column3 {
+background-color:red
+}
+
+h1 {
+font-family: JelleeBold;
+font-weight: normal;
+font-style: normal;
+}
+
+* {
+font-family: Arial, Verdana, sans-serif, JelleeBold;
+      color: #665544;
+      text-align: center;
+}
