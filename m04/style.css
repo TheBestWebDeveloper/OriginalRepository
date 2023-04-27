@@ -10,7 +10,7 @@ background-color:violet
 }
 
 #feature {
-background-color: #8CC63E;
+background-color: purple;
 background-image: url("https://images.template.net/99504/free-smiley-face-clipart-r05sr.jpg");
 background-size:contain;
 background-position: right;
@@ -21,17 +21,12 @@ background-repeat:no-repeat;
 background-color:purple
 }
 
-.column1 {
-background-color:pink
-}
-
-.column2 {
-background-color:darkred
-}
-
-.column3 {
-background-color:red
-}
+.column1{
+  background-color:red}
+.column2{
+  background-color:blue}
+.column3{
+  background-color:green}
 
 h1 {
 font-family: JelleeBold;
