@@ -22,11 +22,11 @@ background-color:purple
 }
 
 .column1{
-  background-color:red}
+background-color:red}
 .column2{
-  background-color:blue}
+background-color:blue}
 .column3{
-  background-color:green}
+background-color:green}
 
 h1 {
 font-family: JelleeBold;
@@ -36,6 +36,34 @@ font-style: normal;
 
 * {
 font-family: Arial, Verdana, sans-serif, JelleeBold;
-      color: #665544;
-      text-align: center;
+    color: #665544;
+    text-align: center;
 }
+body {
+    width: 90%;
+    margin: 0 auto;}
+  #content {
+    overflow: auto;}
+  #nav, #feature, #footer {
+    margin: 1%;}
+  .column1, .column2, .column3 {
+    width: 31.3%;
+    float: left;
+    margin: 1%;}
+  .column3 {
+    margin-right: 0%;}
+  li {
+    display: inline;
+    padding: 0.5em;}
+  #nav, #footer {
+    padding: 0.5em 0;}
+  #nav {
+    background-color: yellow
+  }
+  #footer {
+    background-color: pink
+  }
+  #feature, .article {
+    height: 10em;
+    margin-bottom: 1em;
+    background-color: purple;}
