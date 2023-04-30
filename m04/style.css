@@ -16,7 +16,7 @@ background-color:violet
 }
 
 #feature {
-background-color: purple;
+background-color: green;
 background-image: url("https://images.template.net/99504/free-smiley-face-clipart-r05sr.jpg");
 background-size:contain;
 background-position: right;
@@ -24,7 +24,7 @@ background-repeat:no-repeat;
 }
 
 #footer {
-background-color:purple
+background-color:orange
 }
 
 .column1{
