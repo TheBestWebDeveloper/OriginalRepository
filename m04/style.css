@@ -1,3 +1,9 @@
+* {
+font-family: Arial, Verdana, sans-serif, JelleeBold;
+    color: #665544;
+    text-align: center;
+}
+
 body {
 background-image: url("https://media.istockphoto.com/id/1223364491/vector/cartoon-beach-landscape-summer-background.jpg?s=170667a&w=0&k=20&c=aLvYP_6qRfm4yvSJpEbQT4Zbi7JFY8P7CM1hCoN_LRg=");
 background-size:cover;
@@ -34,11 +40,6 @@ font-weight: normal;
 font-style: normal;
 }
 
-* {
-font-family: Arial, Verdana, sans-serif, JelleeBold;
-    color: #665544;
-    text-align: center;
-}
 body {
     width: 90%;
     margin: 0 auto;}
@@ -66,4 +67,4 @@ body {
   #feature, .article {
     height: 10em;
     margin-bottom: 1em;
-    background-color: purple;}
+    background-color: red;}
