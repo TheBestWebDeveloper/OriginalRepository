@@ -16,7 +16,7 @@ background-color:violet
 }
 
 #feature {
-background-color: green;
+background-color: orange;
 background-image: url("https://images.template.net/99504/free-smiley-face-clipart-r05sr.jpg");
 background-size:contain;
 background-position: right;
@@ -58,9 +58,6 @@ body {
     padding: 0.5em;}
   #nav, #footer {
     padding: 0.5em 0;}
-  #nav {
-    background-color: yellow
-  }
   #footer {
     background-color: pink
   }
