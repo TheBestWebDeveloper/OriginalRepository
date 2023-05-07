@@ -5,7 +5,7 @@
   padding:0px;
   margin:0px;
   width:100%;
-  background-color:lightgreen;
+  background-color:lightblue;
   text-align:center; 
   z-index:10;
   font-family: 'JustLettersMedium'; 
@@ -21,15 +21,15 @@ body {
 #div1 {
   width:100px;
   float:left;
-  height:100px;
-  margin:10px;
+  height:600px;
+  margin:600px;
 }
 
 #div2 {
   width:100px;
   float:left;
-  height:100px;
-  margin:10px;
+  height:600px;
+  margin:600px;
 }
 
 img {
@@ -40,9 +40,4 @@ img {
 
 h1 {
   text-align:center;
-}
-
-#wrapper {
-  width: 1300px;
-  float:left;
 }
