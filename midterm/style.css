@@ -1,15 +1,15 @@
 .menu {
- position:fixed;
- top:0px;
- left:0px; 
- padding:0px;
- margin:0px;
- width:100%;
- background-color:lightblue;
- text-align:center; 
- z-index:10;
-  font-family: 'JustLettersMedium'; 
- font-weight: normal; 
- font-style: normal; 
- font-size:36px;
+position:fixed;
+top:0px;
+left:0px; 
+padding:0px;
+margin:0px;
+width:100%;
+background-color:lightblue;
+text-align:center; 
+z-index:10;
+font-family: 'JustLettersMedium'; 
+font-weight: normal; 
+font-style: normal; 
+font-size:36px;
 }
