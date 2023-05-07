@@ -25,6 +25,8 @@ body {
  text-align:center;
  background-color:lightyellow;
  float:left;
+ height: 100px;
+ width: 100px;
 }
 
 img {
