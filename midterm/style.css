@@ -36,3 +36,7 @@ img {
 h1 {
   text-align:center;
 }
+
+#wrapper {
+  width: 1200px;
+}
