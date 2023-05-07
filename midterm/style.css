@@ -17,3 +17,17 @@ font-size:20px;
 body {
   background-image:url(https://cdn.akamai.steamstatic.com/steam/apps/236390/ss_74240f43f87b1caf2dd578f26dfd025ca4fdf19c.1920x1080.jpg?t=1681461045);
 }
+
+.leftimages{
+ border: 1px solid black;
+ width: 12%;
+ height: 60px;
+ float:left;
+}
+ 
+.rightimages{
+ border: 1px solid black;
+ width: 12%;
+ height: 60px;
+ float:left;
+}
