@@ -18,7 +18,7 @@ body {
   background-image:url(https://cdn.akamai.steamstatic.com/steam/apps/236390/ss_74240f43f87b1caf2dd578f26dfd025ca4fdf19c.1920x1080.jpg?t=1681461045);
 }
 
-#div {
+#div1 #div2 {
  border:solid 1px;
  padding: 10px;
  margin:auto;
