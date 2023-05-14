@@ -7,7 +7,7 @@ function createRhombus(pHeight, pColorEven, pColorOdd, pSymbol) {
   upLeft(pHeight, pColorEven, pColorOdd, pSymbol);
   upRight(pHeight, pColorEven, pColorOdd, pSymbol);
   downRight(pHeight, pColorEven, pColorOdd, pSymbol);
-  downLeft(pHeight, pColorEven, pColorOdd, pSymbol);
+downLeft(pHeight, pColorEven, pColorOdd, pSymbol);
 }
 
 function upLeft(pHeight, pColorEven, pColorOdd, pSymbol){
@@ -89,26 +89,23 @@ function downRight(pHeight, pColorEven, pColorOdd, pSymbol){
   document.getElementById("downRight").innerHTML = rLine;
 }
 
-function downLeft(pHeight, pColorEven, pColorOdd, pSymbol){
-  var rLine ="";
-  for (i=pHeight;i > 1;i--){
-    rLine +="<p>";
-    //Create each line on the Rhombus
-    for(j=x;j<=pHeight;j++){
-rLine +="<span class='space'>" + pSymbol +"</span>";
-      //Is the position even or odd so we change the color
-      if (j%2)
-        //even
-        rLine +="<span style='color:" + pColorEven + ";'>" + pSymbol +"</span>";
-      else
-        //odd
-        rLine +="<span style='color:" + pColorOdd + ";'>" + pSymbol +"</span>";
-
+function downLeft(pHeight, pColorEven, pColorOdd, pSymbol) {
+  var rLine = "";
+  for (i = pHeight - 1; i >= 0; i--) {
+    rLine += "<p>";
+    // Add spaces before the symbols
+    for (j = 0; j < pHeight - i - 1; j++) {
+      rLine += "&nbsp;&nbsp;";
     }
-    rLine +="</p>";
-    // console.log(rLine);
-
+    // Add the symbols
+    for (j = 0; j <= i; j++) {
+      if (j % 2) {
+        rLine += "<span style='color:" + pColorEven + ";'>" + pSymbol + "</span>";
+      } else {
+        rLine += "<span style='color:" + pColorOdd + ";'>" + pSymbol + "</span>";
+      }
+    }
+    rLine += "</p>";
   }
-
   document.getElementById("downLeft").innerHTML = rLine;
 }
