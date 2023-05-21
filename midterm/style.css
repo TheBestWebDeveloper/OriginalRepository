@@ -40,3 +40,12 @@ img {
 h1 {
   text-align:center;
 }
+
+#date {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   text-align: right;
+}
+
