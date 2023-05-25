@@ -1,51 +1,62 @@
 function validateForm() {
-
-  var letters = /^[A-Za-z]+$/;
-  var numbers = /^[0-9]+$/;
-
-  var validFirstname=false;
-  var firstname = document.getElementById("FirstName").value;
-  var validLastname=false;
-  var lastname = document.getElementById("LastName").value;
-  var validEmail=false;
-  var email = document.getElementById("Email").value;
-  var validPhone=false;
-  var phone = document.getElementById("Phone").value;
-  var password = doucment.getElementById("Password").value;
+  var errorMessages = "";
   var validPassword = false;
+  var password = document.getElementById("Password").value;
+  var validAddress = false;
+  var address = document.getElementById("Address").value;
+  var validCity = false;
+  var city = document.getElementById("City").value;
+  var validState = false;
+  var state = document.getElementById("State").value;
+  var validCountry = false;
+  var country = document.getElementById("Country").value;
+  var validZipcode = true;
+  var zipcode = document.getElementById("Zipcode").value;
 
-  if (firstname==="null" || firstname==="" || firstname.length >= 20 || myContact.firstname.value.match(letters)) {
-    errorMessages += "<p>First name must be filled in with alphabetical values, and be less than 20 characters.</p>";
-    validFirstname = false; 
+  if (password === "null" || password === "" || password.length >= 7) {
+      errorMessages += "<p>The password must be less than 7 characters and it is required.</p>";
+      validPassword = false;
+  } else {
+      validPassword = true;
   }
-  validFirstname = true;
 
-  if (lastname==="null" || lastname==="" || lastname.length >= 50 || myContact.lastname.value.match(letters)) {
-    errorMessages += "<p> Last name must be filled in with alphabetical values, and be less than 50 characters.</p>";
-    validLastname = false; 
+  if (address === "null" || address === "") {
+      errorMessages += "<p>Address is required.</p>";
+      validAddress = false;
+  } else {
+      validAddress = true;
   }
-  validLastname = true;
 
-  if (email==="null" || email==="") {
-    errorMessages += "<p> Not a valid Email.</p>";
-    validEmail = false; 
+  if (city === "null" || city === "") {
+      errorMessages += "<p>City is required.</p>";
+      validCity = false;
+  } else {
+      validCity = true;
   }
-  validEmail = true;
 
-  if (phone==="null" || phone==="" || phone.length >= 15 || myContact.phone.value.match(numbers)) {
-    errorMessages += "<p> Phone number must be less than 15 numerals.</p>";
-    validPhone = false; 
+  if (state === "null" || state === "") {
+      errorMessages += "<p>State is required.</p>";
+      validState = false;
+  } else {
+      validState = true;
   }
-  validPhone = true;
 
-if (password==="null" || 
-    password==="" ||
-   password.length >= 7) {
-  errorMessages += "<p> The password must be less than 7 characters and it is required. </p>";
-} else {
-    validPassword = true;
-}
+  if (country === "null" || country === "" || country === "000") {
+      errorMessages += "<p>Country is required.</p>";
+      validCountry = false;
+  } else {
+      validCountry = true;
+  }
+
+  if (country === "USA") {
+      if (zipcode === "null" || zipcode === "" || zipcode.length > 5) {
+          errorMessages += "<p>Zipcode must be filled in with a maximum of 5 digits.</p>";
+          validZipcode = false;
+      } else {
+          validZipcode = true;
+      }
+  }
 
   document.getElementById("errorMessages").innerHTML = errorMessages;
-  return (validFirstname && validLastname && validEmail && validPhone && validPassword); 
+  return (validPassword && validAddress && validCity && validState && validCountry && validZipcode);
 }
