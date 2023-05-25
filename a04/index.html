@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="a04.css" />
   </head>
   <body>
+    <h1> Artifact 04 </h1>
+    <div id="errorMessages"></div>
     <form action="thankyou.html" onsubmit="return validateForm();">
       <p>
         <label for='FirstName'>First Name:</label>
@@ -18,16 +20,32 @@
         <input type="text" id="LastName" name="LastName" />
       </p>
       <p>
-        <label for='EMail'>EMail:</label>
-        <input type="text" id="EMail" name="EMail" />
+        <label for='Email'>Email:</label>
+        <input type="text" id="Email" name="Email" />
       </p>
       <p>
         <label for='Phone'>Phone:</label>
         <input type="text" id="Phone" name="Phone" />
       </p>
       <p>
+        <label for='Username'>Username:</label>
+        <input type="text" id="Username" name="Username" />
+      </p>
+      <p>
+        <label for='Password'>Password:</label>
+        <input type="text" id="Password" name="Password" />
+      </p>
+      <p>
         <label for='Address'>Address:</label>
         <textarea cols="20" rows="5" id="Address" name="Address"></textarea>
+      </p>
+      <p>
+        <label for='City'>City:</label>
+        <input type="text" id="City" name="City" />
+      </p>
+      <p>
+        <label for='State'>State:</label>
+        <input type="text" id="State" name="State" />
       </p>
       <p>
         <label for='Country'>Country:</label>
@@ -45,6 +63,14 @@
           <option value="051">Armenia</option>
           <option value="533">Aruba</option>
         </select>
+      </p>
+      <p>
+        <label for='Zipcode'>Zipcode:</label>
+        <input type="text" id="Zipcode" name="Zipcode" />
+      </p>
+      <p>
+        <label for='Comments'>Comments:</label>
+        <input type="text" id="Comments" name="Comments" />
       </p>
       <p>
         <input type="submit" name="submit" value="Submit">
@@ -71,6 +97,5 @@
       frmvalidator.addValidation("Country","dontselect=000");
 
     </script>
-    <div id="errorMessages"></div>
   </body>
 </html>
