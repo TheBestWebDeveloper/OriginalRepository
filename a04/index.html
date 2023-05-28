@@ -129,13 +129,27 @@
 <p>
 <input type="submit" name="submit" value="Submit">
 </p>
+<p>
+<a href="https://jigsaw.w3.org/css-validator/check/referer">
+<img style="border:0;width:88px;height:31px"
+src="https://jigsaw.w3.org/css-validator/images/vcss"
+alt="Valid CSS!" />
+</a>
+</p>
+<p>
+<a href="https://jigsaw.w3.org/css-validator/check/referer">
+<img style="border:0;width:88px;height:31px"
+    src="https://jigsaw.w3.org/css-validator/images/vcss-blue"
+    alt="Valid CSS!" />
+</a>
+</p>
 </form>
 
 <script  type="text/javascript">
 var frmvalidator = new Validator("myform");
 frmvalidator.addValidation("FirstName","req","Please enter your First Name");
 frmvalidator.addValidation("FirstName","maxlen=20",
-		     "Max length for FirstName is 20");
+     "Max length for FirstName is 20");
 
 frmvalidator.addValidation("LastName","req");
 frmvalidator.addValidation("LastName","maxlen=20");
