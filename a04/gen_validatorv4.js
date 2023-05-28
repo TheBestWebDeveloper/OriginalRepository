@@ -31,7 +31,7 @@ validFirstName=true;
 }
 
 if (lastName === "null" || lastName === "" || !/^[a-zA-Z]*$/g.test(lastName) || lastName.length >50) {
-errorMessages += "<p>Last naem must be filled in, should accept only alphabetical value, maximum 50 characters.</p>";
+errorMessages += "<p>Last name must be filled in, should accept only alphabetical value, maximum 50 characters.</p>";
 validLastName=false; 
 } else {
 validLastName=true; 
