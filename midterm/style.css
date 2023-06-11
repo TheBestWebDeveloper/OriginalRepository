@@ -42,13 +42,13 @@ text-align:center;
 }
 
 #date {
- position: fixed;
- left: 0;
- bottom: 0;
- width: 100%;
- text-align: right;
+position: fixed;
+left: 0;
+bottom: 0;
+width: 100%;
+text-align: right;
 }
 
 #errorDiv {
- color: #F80505;
+color: #F80505;
 }
