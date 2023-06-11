@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  <link rel="stylesheet" type="text/css" href="style.css">
-  <title>Contact Me</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<link rel="stylesheet" type="text/css" href="style.css">
+<title>Contact Me</title>
 </head>
 <body>
-  <p class="menu"> 
+<p class="menu"> 
 <a href="home.html">Home</a>
 <a href="about.html">About</a>
 <a href="coursework.html">Coursework</a> 
@@ -18,15 +18,16 @@
 <a href="validated.html">Validated</a> 
 </p>
 <br>
-  <h1> Contact Me </h1> 
-  <form action="thanks.html">
-    <label for="name">Name</label> <br>
-    <input type="text" id="name" name="firstname" placeholder="Your name..."> <br> <br>
-    <label for="email">Email</label> <br>
-    <input type="text" id="email" name="email" placeholder="Email..."> <br> <br>
-    <label for="comments">Comments</label> <br>
-    <textarea id="comments" name="comments" placeholder="Write something..." style="height:100px"></textarea> <br> <br>
-    <input type="submit" value="Submit">
-        </form>
-    </body>
+<h1> Contact Me </h1> 
+<form action="thanks.html" onsubmit="return validateForm()">
+<label for="name">Name</label> <br>
+<input type="text" id="name" name="firstname" placeholder="Your name..."> <br> <br>
+<label for="email">Email</label> <br>
+<input type="text" id="email" name="email" placeholder="Email..."> <br> <br>
+<label for="comments">Comments</label> <br>
+<textarea id="comments" name="comments" placeholder="Write something..." style="height:100px"></textarea> <br> <br>
+<input type="submit" value="Submit">
+    </form>
+<script src="midterm.js"></script>
+</body>
 </html>
