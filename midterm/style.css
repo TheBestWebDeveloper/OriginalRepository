@@ -48,3 +48,7 @@ text-align:center;
  width: 100%;
  text-align: right;
 }
+
+#errorDiv {
+ color: #F80505;
+}
