@@ -52,3 +52,7 @@ text-align: right;
 #errorDiv {
 color: #F80505;
 }
+
+a:link {
+color: orange;
+}
