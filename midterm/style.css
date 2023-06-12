@@ -54,5 +54,13 @@ color: #F80505;
 }
 
 a:link {
-color: green;
+color: #fca503;
+}
+
+a:visited {
+color: #f403fc;
+}
+
+a:hover {
+color: #03fcb1;
 }
