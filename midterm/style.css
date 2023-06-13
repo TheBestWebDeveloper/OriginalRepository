@@ -61,3 +61,13 @@ a:hover {
 color: #020091;
 font-weight: bold;
 }
+
+a:visited {
+color: pink;
+background-color: orange;
+}
+
+a:active {
+color: yellow;
+text-decoration: underline;
+}
