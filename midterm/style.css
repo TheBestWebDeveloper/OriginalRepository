@@ -63,11 +63,12 @@ font-weight: bold;
 }
 
 a:visited {
-color: pink;
+color: purple;
 background-color: orange;
 }
 
 a:active {
 color: yellow;
 text-decoration: underline;
+font-family:monospace;
 }
